@@ -21,7 +21,7 @@ renren-fastplus
 │  ├─oss 文件服务模块
 │  └─sys 权限模块
 │ 
-├─RenrenApplication 项目启动类
+├─RegCoreApplication 项目启动类
 │  
 ├──resources 
 │  ├─mapper SQL对应的XML文件
@@ -45,12 +45,12 @@ renren-fastplus
 
  **本地部署**
 - 通过git下载源码
-- 创建数据库renren_fastplus，数据库编码为UTF-8
-- 执行doc/db.sql文件，初始化数据
+- 创建数据库test，数据库编码为UTF-8
+- 执行doc/jht-20181231.sql文件，初始化数据
 - 修改application-dev.yml，更新MySQL账号和密码
-- Eclipse、IDEA运行RenrenApplication.java，则可启动项目
-- 项目访问路径：http://localhost
-- 账号密码：admin/admin
+- Eclipse、IDEA运行RegCoreApplication.java，则可启动项目
+- 访问测试接口：http://localhost:8089/demo/api/notToken
+
 - Swagger路径：http://localhost/swagger/index.html
 
 **接口文档效果图：**
